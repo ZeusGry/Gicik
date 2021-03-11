@@ -32,6 +32,8 @@ public enum Server {
         return nazwaSerwera.toLowerCase().startsWith("https");
     }
 
+
+
     public Set<String> getHttpList() {
         Set<String> serversHttp = new HashSet<>();
         for (String server : servers) {
